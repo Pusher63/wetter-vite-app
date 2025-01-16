@@ -5,8 +5,6 @@ const cityInput = document.querySelector(".cityInput");
 const card = document.querySelector(".card");
 const apiKey = import.meta.env.VITE_API_KEY;
 
-console.log("API Key:", apiKey);
-
 weatherForm.addEventListener("submit", async event => {
 
     event.preventDefault();
